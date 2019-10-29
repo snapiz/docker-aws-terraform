@@ -12,3 +12,5 @@ RUN apk --no-cache add \
       py2-pip && \
       pip install --upgrade pip awscli s3cmd && \
       mkdir /root/.aws
+
+ENTRYPOINT []
