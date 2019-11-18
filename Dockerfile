@@ -1,6 +1,7 @@
 FROM hashicorp/terraform
 
 RUN apk --no-cache add \ 
+      zip \
       bash \
       curl \
       less \
